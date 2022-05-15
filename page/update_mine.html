@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/Mine.css">
+    <link rel="stylesheet" href="../css/backgroud.css">
+    <link rel="stylesheet" href="../css/update-info.css">
+    <link rel="stylesheet" href="../Font-Awesome-3.2.1/css/font-awesome.min.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/fontawesome.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    
+    <title>Mine</title>
+</head>
+
+<body>
+    
+    
+    <nav style="left: 0;right: 0;" class="navbar container navbar-expand-md bg-dark navbar-dark addPosition-c" >
+        <a class="navbar-brand ml-5" href="./main.html">To Do List</a>
+           
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end mr-5" id="collapsibleNavbar">
+            <ul class="navbar-nav list-group">
+                <li class="nav-item " style="display: flex; align-items: center;">
+                    <input type="text" name="" id="Search" placeholder="Search...">
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="./main.html">Schedule</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./Mine.html">Mine</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container  add-filter addhight update-info addflex" style="padding-top: 56px; padding-bottom: 40px;">
+        <h3>Update Info</h3>
+        <form action="./Mine.html" class="mine-info-form">  
+            <div class="form-group">
+                <label for="Remark-Name"><i class="icon-edit"> Remark Name:</i></label>
+                <input type="text" class="form-control" id="Remark-Name" placeholder="Enter Remark Name">
+            </div>
+            <div class="form-group">
+                <label for="Phone"><i class="icon-phone"> Phone:</i></label>
+                <input type="text" class="form-control" id="Phone" placeholder="Enter Phone number">
+            </div>
+            <div class="form-group">
+                <label for="E-mail"><i class="icon-envelope"> E-mail:</i></label>
+                <input type="email" class="form-control" id="E-mail" placeholder="Enter E-mail">
+            </div>
+            <div class="form-group">
+                <label for="Company"><i class="icon-suitcase"> Company:</i></label>
+                <input type="text" class="form-control" id="Company" placeholder="Enter Company Name">
+            </div>
+            <div class="form-group">
+                <label for="Location"><i class="icon-home"> Location:</i></label>
+                <input type="text" class="form-control" id="Location" placeholder="Enter Remark Name">
+            </div>
+            
+            <div class="form-group">
+                <label for="Hometown"><i class="icon-home"> Hometown:</i></label>
+                <input type="text" class="form-control" id="Hometown" placeholder="Enter Hometown Name">
+            </div>
+            <div class="form-group">
+                <label for="Note"><i class="icon-tags"> Note:</i></label>
+                <input type="text" class="form-control" id="Note" placeholder="Enter Note">
+            </div>
+            <div class="form-group">
+                <label for="Resume"><i class="icon-edit"> Resume:</i></label>
+                <input type="text" class="form-control" id="Resume" placeholder="Enter Resume">
+            </div>
+            <div class="btn1">
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="../js/update_mine.js"></script>
+    
+</body>
+
+</html>

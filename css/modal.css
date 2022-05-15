@@ -1,0 +1,91 @@
+div,
+ul,
+li {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body {
+  background-color: palevioletred;
+}
+.modal-container {
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(173px);
+  margin: 100px auto;
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 0 3px 0;
+  border-radius: 13px;
+  padding: 5px;
+}
+.my-flex-box {
+  display: flex;
+}
+.my-modal-head {
+  padding: 10px 10px;
+  justify-content: space-between;
+  height: 25%;
+}
+.my-modal-head > span {
+  font-size: 23px;
+  padding-left: 10px;
+}
+.my-modal-head button {
+  border: none;
+  background-color: transparent;
+}
+.my-modal-head button:hover {
+  background-color: #dae5e9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.my-modal-body {
+  height: 50%;
+}
+.speeding {
+  position: relative;
+  margin: 10px auto;
+  border-radius: 5px;
+  width: 300px;
+  height: 60px;
+  box-shadow: 0 0 2px 0 ;
+  overflow: hidden;
+}
+.speeding .speed-remove {
+  width: 25%;
+  height: 100%;
+  background-color: skyblue;
+}
+.speeding > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.my-modal-footer {
+  justify-content: space-between;
+  height: 25%;
+}
+.my-modal-footer > .speeding {
+  width: 60px;
+  height: 20px;
+  font-size: 10px;
+  cursor: pointer;
+}
+.my-modal-footer > .speeding:nth-child(1) .speed-remove {
+  width: 0;
+}
+.my-modal-footer > .speeding:nth-child(2) .speed-remove {
+  width: 25%;
+}
+.my-modal-footer > .speeding:nth-child(3) .speed-remove {
+  width: 50%;
+}
+.my-modal-footer > .speeding:nth-child(4) .speed-remove {
+  width: 75%;
+}
+.my-modal-footer > .speeding:nth-child(5) .speed-remove {
+  width: 100%;
+}

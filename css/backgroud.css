@@ -1,0 +1,89 @@
+.bg-default {
+    background-image: url(../images/png/bg-morning.png);
+}
+
+.bg-0 {
+    background-image: url(../images/png/bg.png);
+}
+
+.bg-1 {
+    background-image: url(../images/png/bg1.png);
+}
+
+.bg-2 {
+    background-image: url(../images/png/bg2.png);
+}
+
+.bg-3 {
+    background-image: url(../images/png/bg3.png);
+}
+
+.bg-4 {
+    background-image: url(../images/png/bg4.png);
+}
+
+.bg-5 {
+    background-image: url(../images/png/bg5.png);
+}
+
+.bg-6 {
+    background-image: url(../images/png/bg6.png);
+}
+
+.bg-7 {
+    background-image: url(../images/png/bg-13.png);
+}
+
+.bg-8 {
+    background-image: url(../images/png/bg8.png);
+}
+
+.bg-9 {
+    background-image: url(../images/png/bg9.png);
+}
+
+.bg-10 {
+    background-image: url(../images/png/bg-evening.png);
+}
+
+.bg-11 {
+    background-image: url(../images/png/bg10.png);
+}
+
+.bg-12 {
+    background-image: url(../images/png/bg11.png);
+}
+
+.bg-13 {
+    background-image: url(../images/png/bg12.png);
+}
+
+.bg-14 {
+    background-image: url(../images/png/bg-morning.png);
+}
+
+.bg-15 {
+    background-image: url(../images/png/bg14.png);
+}
+
+
+@media (max-width:580px) {
+    .add-filter {
+        backdrop-filter: none;
+    }
+}
+
+
+@media (max-width:820px) {
+
+    .title .bg-img-list {
+        width: 160px;
+        height: 160px;
+        right: -45px;
+    }
+
+    .title .bg-img-list li {
+        width: 35px;
+        height: 35px;
+    }
+}

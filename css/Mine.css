@@ -1,0 +1,107 @@
+div,
+ul,
+li {
+  box-sizing: border-box;
+}
+.addhight {
+  height: 100vh;
+  padding-top: 56px;
+  overflow: auto;
+}
+.mine-content {
+  display: flex;
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+.mine-content .mine-content-info {
+  width: 50%;
+  height: 100%;
+  padding: 20px 0;
+}
+.mine-content .mine-content-info:first-child {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.mine-content .mine-content-left {
+  height: 100%;
+  text-align: center;
+}
+.mine-content .mine-content-left .icon-user {
+  color: #686161;
+  font-size: 1.5rem;
+}
+.mine-content .mine-content-left .user-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 50px);
+}
+.mine-content .mine-content-left .user-1 .user-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.mine-content .mine-content-left .user-1 .user-img img {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+.mine-content .mine-content-right {
+  height: 100%;
+  text-align: center;
+}
+.mine-content .mine-content-right .addflex {
+  display: flex;
+  justify-content: space-around;
+}
+.mine-content .mine-content-right .icon-comments-alt {
+  color: #686161;
+  font-size: 1.5rem;
+}
+.mine-content .mine-content-right .user-info .user-info-all {
+  list-style: none;
+  text-align: start;
+  padding: 0 20px;
+}
+.mine-content .mine-content-right .user-info .user-info-all a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 46px;
+}
+.mine-content .mine-content-right .user-info .user-info-all a:hover {
+  text-decoration: none;
+}
+.mine-content .mine-content-right .user-info .user-info-all > li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+.mine-content .mine-content-right .user-info .user-info-all > li:first-child {
+  margin-top: 30px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-bottom: 2px solid gray;
+  padding-bottom: 8px;
+}
+@media (max-width: 840px) {
+  .addhight {
+    overflow: auto;
+  }
+  .mine-content {
+    height: auto;
+    flex-direction: column;
+  }
+  .mine-content .mine-content-info {
+    height: 250px;
+    width: 100%;
+  }
+  .mine-content .mine-content-info .user-1 .user-img {
+    margin: 5px 0;
+    box-shadow: none;
+  }
+}

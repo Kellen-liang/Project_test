@@ -1,0 +1,17 @@
+.update-info {
+  overflow: scroll;
+  padding: 0 100px;
+}
+.update-info h3 {
+  width: 155px;
+  margin: 20px auto;
+  margin-bottom: 0px;
+}
+.update-info form .btn1 {
+  width: 100%;
+  text-align: center;
+}
+.update-info form .btn1 button {
+  width: 100px;
+  margin: 10px 0;
+}

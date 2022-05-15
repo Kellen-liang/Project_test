@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/Mine.css">
+    <link rel="stylesheet" href="../css/backgroud.css">
+    <link rel="stylesheet" href="../Font-Awesome-3.2.1/css/font-awesome.min.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/fontawesome.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js//bootstrap.min.js"></script>
+    
+    <title>Mine</title>
+</head>
+
+<body>
+    
+    
+    <nav style="left: 0;right: 0;" class="navbar container navbar-expand-md bg-dark navbar-dark addPosition-c" >
+        <a class="navbar-brand ml-5" href="./main.html">To Do List</a>
+           
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end mr-5" id="collapsibleNavbar">
+            <ul class="navbar-nav list-group">
+                <li class="nav-item " style="display: flex; align-items: center;">
+                    <input type="text" name="" id="Search" placeholder="Search...">
+                </li>
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="./main.html">Schedule</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="./Mine.html">Mine</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container add-filter  pl-0 pr-0 addhight" >
+        <div class="mine-content">
+            <div class="mine-content-info mine-content-left">
+                <i class="icon-user"> My Account</i>
+                <div class="user-1">
+                    <div class="user-img">
+                        <img src="../images/SVG/头像.svg" alt="">
+                    </div>
+                    <h3>Kellen</h3>
+                    <p>Good Good Study, Day Day Up!</p>
+                </div>
+            </div>
+            <div class="mine-content-info mine-content-right">
+                    <i class="icon-comments-alt"> User Info</i>
+                <div class="user-info">
+                    <ul class="user-info-all">
+                        <li>Postscript <a href="./update_mine.html" id="updateInfo">Update Info</a></li> 
+                        <li><i class="icon-edit" data-info-index="1"> Remark Name</i><span>Kellen</span></li>
+                        <li><i class="icon-envelope e-mail"> E-mail</i><span>10086@outlook.com</span></li>
+                        <li><i class="icon-phone phone"> Phone</i><span>10086</span></li>
+                        <li><i class="icon-suitcase company"> Company</i><span>广东白云</span></li>
+                        <li><i class="icon-tags note"> Note</i><span>靓仔</span></li>
+                    </ul>
+                    <ul class="user-info-all">
+                        <li>Personal</li>
+                        <li><i class="icon-home location"> Location</i><span>湛江</span></li>
+                        <li><i class="icon-envelope e-mail"> E-mail</i><span>10086@outlook.com</span></li>
+                        <li><i class="icon-home hometown"> Hometown</i><span>湛江</span></li>
+                        <li><i class="icon-edit resume"> Resume</i><span>加油干</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/mine.js"></script>
+</body>
+
+</html>

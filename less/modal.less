@@ -1,0 +1,106 @@
+div,ul,li{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    // background-color: transparent;
+}
+body {
+    background-color: palevioletred;
+}
+.modal-container {
+    // position: relative;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(173px);
+    margin: 100px auto;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0 0 3px 0;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.my-flex-box {
+    display: flex;
+}
+
+.my-modal-head {
+    padding: 10px 10px;
+    justify-content: space-between;
+    height: 25%;
+    // border: 1px solid black;
+    &>span {
+        font-size: 23px;
+        padding-left: 10px;
+    }
+    
+    button {
+        border: none;
+        background-color: transparent;
+        &:hover {
+            background-color: rgb(218, 229, 233);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+    }
+}
+.my-modal-body {
+    height: 50%;
+    // border: 1px solid black;
+}
+.speeding {
+    position:relative;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 300px;
+    height: 60px;
+    box-shadow: 0 0 2px 0 ;
+    overflow: hidden;
+
+    .speed-remove {
+        width: 25%;
+        height: 100%;
+        background-color: skyblue;
+    }
+
+    &>span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+.my-modal-footer {
+    justify-content: space-between;
+    height: 25%;
+    // border: 1px solid black;
+
+    &>.speeding {
+        width: 60px;
+        // border: 1px solid black;
+        height: 20px;
+        font-size: 10px;
+        cursor: pointer;
+
+        &:nth-child(1) .speed-remove{
+            width: 0;
+        }
+        &:nth-child(2) .speed-remove{
+            width: 25%;
+        }
+        &:nth-child(3) .speed-remove{
+            width: 50%;
+        }
+        &:nth-child(4) .speed-remove{
+            width: 75%;
+        }
+        &:nth-child(5) .speed-remove{
+            width: 100%;
+        }
+        
+    }
+
+}
